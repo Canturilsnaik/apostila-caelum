@@ -209,7 +209,7 @@ footer .conteiner {
   text-indent: -9999px;
 }
 
-@media (max-width: 939px) {
+@media (max-width: 940px) {
   .conteiner {
     width: 96%;
   }
@@ -253,5 +253,44 @@ footer .conteiner {
 
   .painel img {
     width: 100%;
+  }
+}
+
+@media (min-width: 630px) {
+  .product-mirror {
+    font-size: 1.2em;
+    position: relative;
+    padding-left: 40%;
+  }
+
+  .product-mirror fieldset {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em 0;
+    min-width: 240px;
+    width: 45%;
+  }
+
+  .color-ball {
+    position: static;
+    padding: 0;
+  }
+
+  .color-ball legend {
+    position: static;
+  }
+
+  .color-ball label img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 35%;
+    max-height: 100%;
+  }
+
+  .color-ball >.ball::before {
+    position: static;
+    float: left;
+    margin-right: 10px;
   }
 }

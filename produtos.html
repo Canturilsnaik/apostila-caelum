@@ -28,39 +28,75 @@
       </ul>
     </nav>
   </header>
-  <div class="conteiner">
-    <section class="product-mirror">
-      <h2>Camiseta Ecko Caveira Bad to The Bone</h2>
-      <p>por apenas R$48,95</p>
+  <div class="product-back">
+    <div class="conteiner">
+      <section class="product-mirror">
+        <h2>Camiseta Ecko Caveira Bad to The Bone</h2>
+        <p>por apenas R$48,95</p>
 
-      <form action="checkout.html method="POST"></form>
-        <fieldset class="color-ball">
-          <legend>Escolha uma cor:</legend>
+        <form action="checkout.html method="POST"></form>
+          <fieldset class="color-ball">
+            <legend>Escolha uma cor:</legend>
 
-          <input class="input" type="radio" name="cor" value="green" id="green" checked>
-          <label class="ball" for="green">
-            <img class="photo" src="./img/produtos/foto2-verde.png" alt="Produto na cor verde">
-          </label>
+            <input class="input" type="radio" name="cor" value="green" id="green" checked>
+            <label class="ball" for="green">
+              <img class="photo" src="./img/produtos/foto2-verde.png" alt="Produto na cor verde">
+            </label>
 
-          <input class="input" type="radio" name="cor" value="pink" id="pink">
-          <label class="ball" for="pink">
-            <img class="photo" src="./img/produtos/foto2-rosa.png" alt="Produto na cor rosa">
-          </label>
+            <input class="input" type="radio" name="cor" value="pink" id="pink">
+            <label class="ball" for="pink">
+              <img class="photo" src="./img/produtos/foto2-rosa.png" alt="Produto na cor rosa">
+            </label>
 
-          <input class="input" type="radio" name="cor" value="blue" id="blue">
-          <label class="ball" for="blue">
-            <img class="photo" src="./img/produtos/foto2-azul.png" alt="Produto na cor azul">
-          </label>
-        </fieldset>
+            <input class="input" type="radio" name="cor" value="blue" id="blue">
+            <label class="ball" for="blue">
+              <img class="photo" src="./img/produtos/foto2-azul.png" alt="Produto na cor azul">
+            </label>
+          </fieldset>
 
-        <fieldset>
-          <legend>Escolha o tamanho:</legend>
-          <input type="range" min="36" max="46" value="32" step="2" name="tamanho" id="tamanho">
-          <output for="tamanho" name="valortamanho">42</output>
-        </fieldset>
+          <fieldset class="tamanhos">
+            <legend>Escolha o tamanho:</legend>
+            <input type="range" min="36" max="46" value="32" step="2" name="tamanho" id="tamanho">
+            <output for="tamanho" name="valortamanho">42</output>
+          </fieldset>
 
-        <button class="button-mirror">Comprar</button>
-    </section>
+          <button class="button-mirror">Comprar</button>
+      </section>
+
+      <section class="detalhes">
+        <h2>Detalhes do produto</h2>
+
+        <p>Camiseta confortável ideal para eventos casuais!</p>
+        <p>Camiseta manga curta, gola redonda. Possui estampa de Caveira e descritivo frontal e lisa nas costas.</p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Caracteristica</th>
+              <th>Detalhe</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Modelo</td>
+              <td>Camiseta Ecko Caveira</td>
+            </tr>
+            <tr>
+              <td>Material</td>
+              <td>Algodão e poliester</td>
+            </tr>
+            <tr>
+              <td>Cores</td>
+              <td>Verde, Rosa, Azul</td>
+            </tr>
+            <tr>
+              <td>Lavagem</td>
+              <td>Lavar a mão</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
   </div>
   <footer>
     <div class="conteiner">
